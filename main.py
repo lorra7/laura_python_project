@@ -1,4 +1,4 @@
-def hello(firstname='John', lastname='Doe'): 
+def hello(firstname='John', lastname='Doe'):
     if not firstname:
         raise TypeError("Il manque le prénom")
     if not lastname:
@@ -11,4 +11,3 @@ def hello(firstname='John', lastname='Doe'):
         raise TypeError("Le nom doit être une chaîne")
 
     return f"Hello, {firstname} {lastname}!"
-
